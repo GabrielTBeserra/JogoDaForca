@@ -53,7 +53,7 @@ var alfabeto_posicoes = {
     W: 22,
     X: 23,
     Y: 24,
-    Z: 25
+    Z: 25,
 }
 
 var alfabetoDefault = [
