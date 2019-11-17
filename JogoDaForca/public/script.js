@@ -51,7 +51,7 @@ function atualizaImage(imageUrl) {
 
 
 
-//
+// Cria ou atualiza todos os botoes
 function criarBotoes(alfabeto) {
     const area = document.querySelector("#game-letrasrestantes");
 
@@ -106,7 +106,6 @@ function letraClicada(letra) {
 // Atualiza o chat de join players 
 function updateChat(texto) {
     const chat = document.querySelector("#game-chat");
-    chat.innerHTML = "";
     let p = document.createElement("p");
     let text = document.createTextNode(texto);
     p.appendChild(text);

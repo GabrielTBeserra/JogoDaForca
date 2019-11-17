@@ -56,7 +56,7 @@ var alfabeto_posicoes = {
     Z: 25,
 }
 
-var alfabetoDefault = [
+const alfabetoDefault = [
     "A",
     "B",
     "C",

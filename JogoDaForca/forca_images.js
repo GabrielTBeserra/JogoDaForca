@@ -1,7 +1,4 @@
-exports.images = array_images;
-
-
-var array_images = [
+var images = [
     "forca_images/1.png",
     "forca_images/2.png",
     "forca_images/3.png",
@@ -14,3 +11,5 @@ var array_images = [
     "forca_images/10.png",
     "forca_images/11.png"
 ];
+
+exports.images = images;
