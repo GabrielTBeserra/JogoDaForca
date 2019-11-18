@@ -20,7 +20,7 @@ socket.on("update-game-text", function(valor) {
     atualizaForca(valor);
 });
 
-// Atualiaza a imagem da forca comforme as letras sao erradas
+// Atualiaza a imagem da forca conforme as letras sao erradas
 socket.on("update-image", function(image) {
     atualizaImage(image);
 });
